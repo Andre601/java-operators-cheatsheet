@@ -13,20 +13,20 @@ This site is based on the one of [Cafeaulait.org][Cafeaulait] with some minor ch
 ### Number Operators
 Can be used to manipulate numbers.
 
-| Operator: | Fuction:                     | Example: |
-| --------- | ---------------------------- | -------- |
-| `+`       | Addition.                    | 1.1      |
-| `+=`      | Add and assign numbers.      | 1.2      |
-| `-`       | Substraction.                | 1.3      |
-| `-=`      | Substract and assign number. | 1.4      |
-| `*`       | Multiplication.              | 1.5      |
-| `*=`      | Multiply and assign number.  | 1.6      |
-| `/`       | Division.                    | 1.7      |
-| `/=`      | Divide and assign number.    | 1.8      |
-| `%`       | Take remainder               | 1.9      |
-| `%=`      | Take and assign remainder.   | 1.10     |
-| `++`      | Increase by 1.               | 1.11     |
-| `--`      | Decrease by 1.               | 1.12     |
+| Operator: | Fuction:                     | Example:     |
+| --------- | ---------------------------- | ------------ |
+| `+`       | Addition.                    | [1.1](#11)   |
+| `+=`      | Add and assign numbers.      | [1.2](#12)   |
+| `-`       | Substraction.                | [1.3](#13)   |
+| `-=`      | Substract and assign number. | [1.4](#14)   |
+| `*`       | Multiplication.              | [1.5](#15)   |
+| `*=`      | Multiply and assign number.  | [1.6](#16)   |
+| `/`       | Division.                    | [1.7](#17)   |
+| `/=`      | Divide and assign number.    | [1.8](#18)   |
+| `%`       | Take remainder               | [1.9](#19)   |
+| `%=`      | Take and assign remainder.   | [1.10](#110) |
+| `++`      | Increase by 1.               | [1.11](#111) |
+| `--`      | Decrease by 1.               | [1.12](#112) |
 
 ### Boolean Operators
 May be used in if statements.
@@ -44,17 +44,147 @@ May be used in if statements.
 ## Examples
 
 ### 1.1
-We create an Integer with value 0, print this in the terminal, add 1 and print again.
-
 ```java
 int i = 0;
-
-// Will print 0.
-System.out.prntln(i);
 
 // Add 1 to i.
 i = i + 1;
 
 // Will print 1.
 System.out.prntln(i);
+```
+
+### 1.2
+```java
+int i = 0;
+
+// Add 1 to i.
+i += 1;
+
+// Will print 1.
+System.out.prntln(i);
+```
+
+### 1.3
+```java
+int i = 5;
+
+// Remove 2 from i.
+i - 2;
+
+// Will print 3.
+System.out.prntln(i);
+```
+
+### 1.4
+```java
+int i = 5;
+
+// Remove 2 from i.
+i -= 2;
+
+// Will print 3.
+System.out.prntln(i);
+```
+
+### 1.5
+```java
+int i = 1;
+
+// Multiply i by 5.
+i = i * 5;
+
+// Will print 5.
+System.out.prntln(i);
+```
+
+### 1.6
+```java
+int i = 1;
+
+// Multiply i by 5.
+i *= 5;
+
+// Will print 5.
+System.out.prntln(i);
+```
+
+### 1.7
+```java
+int i = 10;
+
+// Divide i by 2.
+i = i / 2;
+
+// Will print 5.
+System.out.prntln(i);
+```
+
+### 1.8
+```java
+int i = 10;
+
+// Divide i by 2.
+i /= 2;
+
+// Will print 5.
+System.out.prntln(i);
+```
+
+### 1.9
+```java
+int i = 21;
+
+// Get remainder of 21 / 4.
+i = i % 4;
+
+// Will print 1.
+System.out.prntln(i);
+```
+
+### 1.10
+```java
+int i = 21;
+
+// Get the remainder of 21 / 4.
+i %= 4;
+
+// Will print 1.
+System.out.prntln(i);
+```
+
+### 1.11
+```java
+int i = 0;
+
+// Increase by 1.
+i++;
+
+// Will print 1.
+System.out.println(i);
+
+// ====================
+
+// Usage in a for loop.
+for(int i = 0; i < 10; i++){
+    System.out.prntln(i);
+}
+```
+
+### 1.12
+```java
+int i = 10;
+
+// Decrease by 1.
+i--;
+
+// Will print 9.
+System.out.prntln(i);
+
+// ====================
+
+// Usage in a for loop.
+for(int i = 10; i > 0; i--){
+    System.out.prntln(i);
+}
 ```
