@@ -13,7 +13,7 @@ This site is based on the one of [Cafeaulait.org][Cafeaulait] with some minor ch
 ### Number Operators
 Can be used to manipulate numbers.
 
-| Operator: | Fuction:                     | Example:     |
+| Operator: | Function:                    | Example:     |
 | --------- | ---------------------------- | ------------ |
 | `+`       | Addition.                    | [1.1](#11)   |
 | `+=`      | Add and assign numbers.      | [1.2](#12)   |
@@ -31,25 +31,25 @@ Can be used to manipulate numbers.
 ### Boolean Operators
 May be used in if statements.
 
-| Operator: | Fuction:                           | Example:   |
-| --------- | ---------------------------------- | ---------- |
-| `>`       | Greater than.                      | [2.1](#21) |
-| `>=`      | Greater than or equal to.          | [2.2](#22) |
-| `<`       | Less than.                         | [2.3](#23) |
-| `<=`      | Less than or equal to.             | [2.4](#24) |
-| `==`      | Is equal to.                       | [2.5](#25) |
-| `!=`      | Is NOT equal to.                   | [2.6](#26) |
-|           |                                    |            |
-| `&&`      | Operator AND.                      | [2.7](#27) |
-| `\|\|`    | Operator OR                        | [2.8](#28) |
-|           | Ignore the \\. GitHub limitation.) |            |
-|           |                                    |            |
-| `!`       | Operator NOT.                      | [2.9](#29) |
+| Operator: | Fuction:                            | Example:   |
+| --------- | ----------------------------------- | ---------- |
+| `>`       | Greater than.                       | [2.1](#21) |
+| `>=`      | Greater than or equal to.           | [2.2](#22) |
+| `<`       | Less than.                          | [2.3](#23) |
+| `<=`      | Less than or equal to.              | [2.4](#24) |
+| `==`      | Is equal to.                        | [2.5](#25) |
+| `!=`      | Is NOT equal to.                    | [2.6](#26) |
+|           |                                     |            |
+| `&&`      | Operator AND.                       | [2.7](#27) |
+| `\|\|`    | Operator OR                         | [2.8](#28) |
+|           | (Ignore the \\. GitHub limitation.) |            |
+|           |                                     |            |
+| `!`       | Operator NOT.                       | [2.9](#29) |
 
 ### String Operators
 Can be used to manipulate Strings.
 
-| Operator: | Fuction:                      | Example:   |
+| Operator: | Function:                     | Example:   |
 | --------- | ----------------------------- | ---------- |
 | `+`       | Concatate two Strings.        | [3.1](#31) |
 | `+=`      | Concatate and assign Strings. | [3.2](#32) |
