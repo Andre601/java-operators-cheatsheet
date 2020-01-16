@@ -334,6 +334,8 @@ if(!text.equals("Hello World!"))
     System.out.prntln("Not Hello world!");
 ```
 
+----
+
 ### 3.1
 ```java
 String text = "Foo";
@@ -355,6 +357,8 @@ text += "Bar";
 // Will print "FooBar".
 System.out.prntln(text);
 ```
+
+----
 
 ### 4.1
 ```java
