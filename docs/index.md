@@ -45,7 +45,7 @@ May be used in if statements.
 | `!=`      | Is NOT equal to.                    | [2.6](#26) |
 |           |                                     |            |
 | `&&`      | Operator AND.                       | [2.7](#27) |
-| `\|\|`    | Operator OR                         | [2.8](#28) |
+| `||`    | Operator OR                         | [2.8](#28) |
 |           | (Ignore the \\. GitHub limitation.) |            |
 |           |                                     |            |
 | `!`       | Operator NOT.                       | [2.9](#29) |
