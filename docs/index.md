@@ -350,3 +350,96 @@ text += "Bar";
 // Will print "FooBar".
 System.out.prntln(text);
 ```
+
+### 4.1
+```java
+
+```
+
+### 4.2
+```java
+/*
+ * Bitwise OR is useful for try-catch where multiple
+ * Exceptions can be thrown by one or multiple methods.
+ *
+ * Reduces the amount of catch-blocks significantly.
+ */
+public void performStuff(){
+    try{
+        MyClass.doStuff();
+    }catch(IOException | NullPointerException ex){
+        ex.printStackTrace();
+    }
+}
+```
+
+### 4.3
+```java
+
+```
+
+### 4.4
+```java
+
+```
+
+### 4.5
+```java
+
+```
+
+### 4.6
+```java
+
+```
+
+### 4.7
+```java
+
+```
+
+### 4.8
+```java
+// We first get the currently used RAM and max allocated RAM.
+long used = ManagementFactory.getMemoryMXBeam().getHeapMemoryUsage().getUsed();
+long max  = ManagementFactory.getMemoryMXBeam().getHeapMemoryUsage().getMax();
+
+// We shift both values by 20, turning them info MB value.
+used = used >> 20;
+max  = max >> 20;
+
+System.out.prntln("RAM usage: " + used + "/" + max + "MB");
+```
+
+### 4.9
+```java
+// We first get the currently used RAM and max allocated RAM.
+long used = ManagementFactory.getMemoryMXBeam().getHeapMemoryUsage().getUsed();
+long max  = ManagementFactory.getMemoryMXBeam().getHeapMemoryUsage().getMax();
+
+// We shift both values by 20, turning them info MB value.
+used >>= 20;
+max  >>= 20;
+
+System.out.prntln("RAM usage: " + used + "/" + max + "MB");
+```
+
+### 4.10
+```java
+
+```
+
+### 4.11
+```java
+
+```
+
+### 4.12
+```java
+
+```
+
+### 4.13
+```java
+
+```
