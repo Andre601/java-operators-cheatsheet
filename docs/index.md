@@ -109,7 +109,7 @@ System.out.prntln(i);
 int i = 5;
 
 // Remove 2 from i.
-i - 2;
+i = i - 2;
 
 // Will print 3.
 System.out.prntln(i);
