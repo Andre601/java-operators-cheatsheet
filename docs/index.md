@@ -14,6 +14,10 @@ This site is based on the one of [Cafeaulait.org][Cafeaulait] with some minor ch
 
 ## Operators
 
+<!-- NOTE                                                                                     -->
+<!-- The table(s) below may look broken, but are perfectly find on the actual website itself. -->
+<!-- This seems to be a bug/issue with GitHub's markdown rendering system.                    -->
+
 ### Number Operators
 Can be used to manipulate numbers.
 
@@ -45,8 +49,7 @@ May be used in if statements.
 | `!=`      | Is NOT equal to.                    | [2.6](#26) |
 |           |                                     |            |
 | `&&`      | Operator AND.                       | [2.7](#27) |
-| `||`    | Operator OR                         | [2.8](#28) |
-|           | (Ignore the \\. GitHub limitation.) |            |
+| `||`      | Operator OR                         | [2.8](#28) |
 |           |                                     |            |
 | `!`       | Operator NOT.                       | [2.9](#29) |
 
