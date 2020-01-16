@@ -58,6 +58,25 @@ Can be used to manipulate Strings.
 | `+`       | Concatate two Strings.        | [3.1](#31) |
 | `+=`      | Concatate and assign Strings. | [3.2](#32) |
 
+### Bit Operators
+
+| Operator: | Function:                                 | Example:     |
+| --------- | ----------------------------------------- | ------------ |
+| `~`       | Bitwise NOT.                              | [4.1](#41)   |
+| `|`       | Bitwise OR.                               | [4.2](#42)   |
+| `|=`      | Bitwise OR and assign.                    | [4.3](#43)   |
+| `^`       | Bitwise XOR.                              | [4.4](#44)   |
+| `^=`      | Bitwise XOR and assign.                   | [4.5](#45)   |
+| `&`       | Bitwise AND.                              | [4.6](#46)   |
+| `&=`      | Bitwise AND and assign.                   | [4.7](#47)   |
+| `>>`      | Signed bits shifting right.               | [4.8](#48)   |
+| `>>=`     | Signed bits shifting right and assigning. | [4.9](#49)   |
+| `<<`      | Shift bits left.                          | [4.10](#410) |
+| `<<=`     | Shift bits left and assigning.            | [4.11](#411) |
+| `>>>`     | Unsigned bit shifting right.              | [4.12](#412) |
+| `>>>=`    | Unsigned bit shifting right and assign.   | [4.13](#413) |
+
+
 ## Examples
 
 ### 1.1
@@ -204,4 +223,130 @@ System.out.prntln(i);
 for(int i = 10; i > 0; i--){
     System.out.prntln(i);
 }
+```
+
+### 2.1
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 9;
+
+// Will be true when a is more than 9.
+if(a > b)
+    System.out.prntln("A is larger than B");
+```
+
+### 2.2
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 9;
+
+// Will be true when a is more than or exactly 9.
+if(a >= b)
+    System.out.prntln("A is greater or equal to B");
+```
+
+### 2.3
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 1;
+
+// Will be true when a is less than 1;
+if(a < b)
+    System.out.prntln("A is less than B");
+```
+
+### 2.4
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 9;
+
+// Will be true when a is less or equal to 1.
+if(a <= b)
+    System.out.prntln("A is less than or equal to B");
+```
+
+### 2.5
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 10;
+
+// Will be true when a is equal to 10.
+if(a == b)
+    System.out.prntln("A is equal to B");
+```
+
+### 2.6
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 10;
+
+// Will be true when a is between 0 and 9.
+if(a != b)
+    System.out.prntln("A is not equal to B");
+```
+
+### 2.7
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 5;
+int c = 10;
+
+// Will be true when a is more than 5 AND less than 10.
+if((a > b) && (a < c))
+    System.out.prntln("A is greater than B and less than C.")
+```
+
+### 2.8
+```java
+// Gets a random value between 0 and 10.
+int a = new Random().nextInt(10);
+int b = 0;
+int c = 10;
+
+// Will be true when a is equal to 10 OR equal to 0.
+if((a == b) || (a == c))
+    System.out.prntln("A is equal to B or C);
+```
+
+### 2.9
+```java
+// Getting a basic true/false with the Random function
+int i = new Random().nextInt(1);
+
+String text = "FooBar";
+if(i == 1)
+    text = "Hello World!";
+
+// Will be true if the String text is not equal to "Hello World!".
+if(!text.equals("Hello World!"))
+    System.out.prntln("Not Hello world!");
+```
+
+### 3.1
+```java
+String text = "Foo";
+
+// Concatate the extra text.
+text = text + "Bar";
+
+// Will print "FooBar".
+System.out.prntln(text);
+```
+
+### 3.2
+```java
+String text = "Foo";
+
+// Concatate and directly assign the extra text.
+text += "Bar";
+
+// Will print "FooBar".
+System.out.prntln(text);
 ```
