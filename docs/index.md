@@ -12,11 +12,11 @@ If you find invalid information, or want to add missing one, feel free to [open 
 ## Credits
 This site is based on the one of [Cafeaulait.org][Cafeaulait] with some minor changes being made. All original credit goes to the people of that site.
 
-## Operators
+## Note
+The tables may look weird (missing or misplaced text) due to the usage of `|` within the tables themsel.  
+This is a visual bug and only affects the GitHub repository. The main website itself is unaffected by this.
 
-<!-- NOTE                                                                                     -->
-<!-- The table(s) below may look broken, but are perfectly find on the actual website itself. -->
-<!-- This seems to be a bug/issue with GitHub's markdown rendering system.                    -->
+## Operators
 
 ### Number Operators
 Can be used to manipulate numbers.
@@ -227,6 +227,8 @@ for(int i = 10; i > 0; i--){
     System.out.prntln(i);
 }
 ```
+
+----
 
 ### 2.1
 ```java
