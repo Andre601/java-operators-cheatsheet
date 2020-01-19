@@ -13,7 +13,7 @@ If you find invalid information, or want to add missing one, feel free to [open 
 This site is based on the one of [Cafeaulait.org][Cafeaulait] with some minor changes being made. All original credit goes to the people of that site.
 
 ## Note
-The tables may look weird (missing or misplaced text) due to the usage of `|` within the tables themsel.  
+The tables may look weird (missing or misplaced text) due to the usage of `|` within the tables themself.  
 This is a visual bug and only affects the GitHub repository. The main website itself is unaffected by this.
 
 ## Operators
