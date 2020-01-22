@@ -317,7 +317,7 @@ int c = 10;
 
 // Will be true when a is equal to 10 OR equal to 0.
 if((a == b) || (a == c))
-    System.out.prntln("A is equal to B or C);
+    System.out.prntln("A is equal to B or C");
 ```
 
 ### 2.9
